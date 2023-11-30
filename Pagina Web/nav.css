@@ -1,0 +1,87 @@
+.contenedor-navegacion {
+    background-color: #1e1e22;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-contenido {
+    margin: 1.2vh;
+    display: flex;
+    align-items: center;
+}
+
+.language-web{
+    margin-left: 0.5rem;
+    background-color: #1e1e22;
+    color: #b8b8cd;
+    font-weight: 500;
+    border-radius: 0.25rem;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    border: 0 solid #e5e5e5;
+    box-sizing: border-box;
+    margin-left: 2rem;
+    
+}
+.busqueda-nav {
+    background-color: #282531;
+    display: flex;
+    align-items: center;
+    border: 0 solid #e5e5e5;
+    border-radius: 0.6rem;
+    height: 55%;
+    width: 18rem;
+}
+.busqueda {
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.input {
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+    outline: none;
+    box-shadow: none;
+    transition: box-shadow .2s ease;
+    appearance: none;
+    background-color: #282531;
+    border: 0 solid #e5e5e5;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 70%;
+    color: white;
+}
+.input::placeholder {
+    color: #b8b8cd;
+}
+
+.coins {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+.coin {
+    display: flex;
+    align-items: center;
+}
+.imagen-coin {
+    margin-right: 2%;
+    margin-left: 5%;
+}
+
+.informacion-cuenta {
+    background-color: #282531;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    display: flex;
+    
+}
+.info-cuenta {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+.logo-menu {
+    display: flex;
+    align-items: center;
+}
